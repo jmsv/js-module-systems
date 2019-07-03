@@ -1,4 +1,4 @@
-import hello, { hi } from './hello'
+import hello, { hi, unused } from './hello'
 
 hello()
 hi()

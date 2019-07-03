@@ -1,16 +1,21 @@
 var hello = (function () {
-	'use strict';
+  'use strict';
 
-	const hello = () => console.log('hello');
-	const hi = () => console.log('hi');
+  const hello = () => {
+    console.log('hello');
+  };
 
-	// Exports could also use:
-	// export { hi as logHi }         // <- to change name of named export
-	// export { hello as default }    // <- alternative syntax for default exports
+  const hi = () => {
+    console.log('hi');
+  };
 
-	hello();
-	hi();
+  // Exports could also use:
+  // export { hi as logHi }         // <- to change name of named export
+  // export { hello as default }    // <- alternative syntax for default exports
 
-	return hello;
+  hello();
+  hi();
+
+  return hello;
 
 }());

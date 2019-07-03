@@ -1,5 +1,10 @@
-const hello = () => console.log('hello');
-const hi = () => console.log('hi');
+const hello = () => {
+  console.log('hello');
+};
+
+const hi = () => {
+  console.log('hi');
+};
 
 // Exports could also use:
 // export { hi as logHi }         // <- to change name of named export
