@@ -13,7 +13,5 @@
   "devDependencies": {
     "rollup": "^1.16.4"
   },
-  "dependencies": {
-    "uuid": "^3.3.2"
-  }
+  "dependencies": {}
 }
